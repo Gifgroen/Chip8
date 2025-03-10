@@ -1,0 +1,4 @@
+-Wl,-rpath,\$ORIGIN/
+
+-DDEBUG=1
+-DASSERT_ENABLED=1

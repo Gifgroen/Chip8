@@ -1,7 +1,7 @@
 # Chip8
-A Chip 8 interpreter
+A Chip 8 interpreter based on: [Guide to making a CHIP-8 emuator](https://tobiasvl.github.io/blog/write-a-chip-8-emulator/).
 
-## Setup
+# Setup
 To setup the local build system run `./init.bld.env.sh` script. That creates a setup for a build in a `local/` folder in the project root based on the initfiles in `./bin/initfiles/`. 
 
 ## The local folder

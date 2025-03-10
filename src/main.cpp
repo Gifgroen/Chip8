@@ -22,7 +22,22 @@ int main(int Argc, char **Argv)
     printf("ARCH_x86 = %d\n", ARCH_x86);
     printf("ARCH_x64 = %d\n", ARCH_x64);
 
+    printf("\nOPTS\n");
+#if ASSERT_ENABLED
+    printf("Assert is enabled!\n");
+#else
+    printf("Assert is NOT enabled!\n");
+#endif
+
+#if DEBUG
+    printf("We are running in DEBUG mode!\n"); 
+#else
+    printf("We are NOT running in DEBUG mode!\n");
+#endif
+
     printf("\nHello Chip-8!\n");
+
+    Assert(1 + 1 == 5);
 
     s8 items[3] = {1, 2, 0};
     printf("items has %lu items\n", ArrayCount(items));
